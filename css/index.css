@@ -1,0 +1,92 @@
+
+.header{
+    height: 0.48rem;
+    display: flex;
+    padding: 0.2rem;
+}
+.search{
+    width: 6.66rem;
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    border:none;
+    outline: none;
+    text-indent: 0.61rem;
+    background: #EEEEEE url(../images/search.png) 0.2rem 0.1rem no-repeat;
+    /* 设置背景图片的尺寸 */
+    background-size:0.3rem 0.3rem;
+}
+.message{
+    width: 0.28rem;
+    height: 0.3rem;
+}
+.banner,.banner img{
+    width: 7.5rem;
+    height: 3.9rem;
+    display: block;
+}
+.menu{
+    display: flex;
+    padding: 0.2rem 0.45rem;
+    justify-content: space-between;
+}
+.menu li{
+    width: 1.2rem;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.menu li img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+/* 猜你喜欢开始 */
+.like{
+    padding:0.2rem;
+}
+.like-title{
+    display: flex;
+}
+.like-title img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.like-title-txt{
+    flex:1;
+}
+.like-title-txt h3{
+    font-size: 0.28rem;
+    color:#333;
+}
+.like-title-txt p{
+    font-size: 0.18rem;
+    color:#999;
+}
+.more{
+    font-size: 0.5rem;
+}
+.like-content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.like-content li{
+    width: 3.5rem;
+}
+.like-content li img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.like-content li p {
+    font-size: 0.24rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    /* background: #ff0000; */
+    /* 单行文本溢出... */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#333;
+}
+.like-price{
+    color:#EF1C00;
+    font-size:0.24rem;
+}
